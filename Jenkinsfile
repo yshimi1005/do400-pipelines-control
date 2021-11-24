@@ -30,7 +30,7 @@ pipeline {
                 expression { env.GIT_BRANCH == 'origin/main' }
             }
             steps {
-                echo 'Step not executed...'
+                echo 'Step not executed....'
             }
         }
     }
